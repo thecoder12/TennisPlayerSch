@@ -49,7 +49,7 @@ my $url = 'http://www.bing.com/search?q='.$Player{'Name'};
 			$Player{'live'} = $1;
 		}
 
-	
+	     
 	print Dumper(\%Player);
 
 	
